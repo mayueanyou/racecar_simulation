@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+work_dir=$(dirname "$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)")
+
+. "$work_dir"/racecar_simulation/scripts/.config
+. "$work_dir"/racecar_simulation/scripts/racecar_tool.sh
